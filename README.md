@@ -1,36 +1,36 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Something that I really enjoy doing is cooking so I thought of making a simple program to be able to store recipes on a database in this case it was a firstore database. 
 
-{Provide a description the software that you wrote and how it integrates with a Cloud Database.  Describe how to use your program.}
+When you run the program it will give you the options to view the recipes in the database, add a recipe or remove a recipe from the database. I left the program pretty simple on purpose to be able to add more to it in the future, such as more options to add information or more functionality. 
 
-{Describe your purpose for writing this software.}
+Maybe this could be integrated with a mobile app to be able to access your recipes from your phone or computer. 
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+<!-- [Software Demo Video](http://youtube.link.goes.here) -->
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
+I am using a firestore database because it was free and pretty simple to set up and integrate with python. 
 
-{Describe the structure of the database that you created.}
+The database is set up very simply and only has two collections right now, one for the recipes and the other for any logs (information about adding or removing recipes with timestamps).
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+While working on this project I used the following: 
 
-{Describe the programming language that you used and any libraries.}
+* VS Code
+* Python 3.10
+* Firstore Database
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Firebase Documentation](https://firebase.google.com/docs/build)
+* [Python Documentation](https://docs.python.org/3/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+Some of the things I would do in the future if I had time to expand on this code:
+
+* Add more functionality to the code (More options on what to do with the recipes).
+* Add more information to each recipe, maybe better formating.
+* I would probably try to integrate it with a mobile app, probably using Android Studio. 
