@@ -4,7 +4,6 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 import os
 
-running = True
 
 def initializeFirestore():
 
@@ -92,7 +91,7 @@ def log_transaction(db, message):
     db.collection("log").add(data)
 
 
-
+running = True
 db = initializeFirestore()
 while running:
    printMenu()
